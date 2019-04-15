@@ -24,13 +24,7 @@ app.use(express.static("script"));
 
 app.use(express.static("images"));
 
-// Create Sql database connectivity //
-const db = mysql.createConnection ({
- host: 'hostingmysql304.webapps.net',
- user: 'liamme',
- password: 'L1Am39??',
- database: 'liam'    
-})
+
 
 db.connect((err) => {
     if(err){
