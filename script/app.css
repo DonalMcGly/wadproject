@@ -1,0 +1,221 @@
+body {
+    background-color: #555;
+    background-image: url("/mainbackground.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    text-align: center;
+    
+}
+/* Style for the logo */
+.logiIm {
+    width: 60%;
+    border-radius: 50%;
+}  
+.imhold{
+    width: 20%;
+    float: left;
+}
+.navhold{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-bottom: 10px;
+}
+.holder {
+    text-align: center;
+    width: 90%;
+}
+.topnav {
+    background-color: #2F4F4F;
+    overflow: auto;
+    position:absolute;
+	top:17px;
+	width:100%;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ffffff;
+    color: #2F4F4F;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.row {
+    width: 1300px;
+    color: #ffffff;
+    overflow: hidden;
+}
+.holder {
+    text-align: center;
+    width: 90%;
+}
+
+
+/* Style the footer */
+.footer {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #000000;
+  color:white;
+  text-align: center;
+  font-size:8px;
+}
+/* Style for athletes page */
+.grid-container {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  
+}
+.item {
+  background-color: #008080;
+  border: solid 1px #FFFFFF;
+  text-align: center;
+  padding: 5px 0;
+  width: 100%;
+}
+label{
+    color:#FFFFFF;
+    font-weight: bold; 
+}
+
+#itemsContainer {
+    width: 100%;
+    text-align: center;
+}
+.itemtitle {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px
+}
+.itemp {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+    font-size: 18px
+}
+.pimage {
+    width: 300px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+.button {
+    background-color: #4CAF50;
+    border: solid;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#itemsContainer h2 {
+   display: block;
+   color: #555;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+}
+#itemsContainer h1 {
+   display: block;
+    color: #555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.itemhols {
+    margin: 10px;
+    display: inline-block;
+    width: 100%;
+    min-height: 30px;
+    background-color: #ffffff;
+}
+/* Style for the form */
+form
+{
+     width: 70%;
+     position:relative;
+	 left:280px;
+     
+}
+input[type=text], select {
+    width: 95%;
+    padding: 10px 20px;
+    margin: 8px 3px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #C71585;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.formHold {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width:90%;
+}
+
+/* End Style for form */
+.place
+{
+     position:absolute;
+	 top:210px;
+	 left:50px;
+	 height: 290px;
+}
+.place1
+{
+     position:absolute;
+	 top:210px;
+	 left:465px;
+	 height: 290px;
+}
+.place2
+{
+     position:absolute;
+	 top:210px;
+	 left:883px;
+	 height: 290px;
+}
