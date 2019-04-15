@@ -1,0 +1,25 @@
+<% include ../partials/header %>
+<div class="row">
+    <h1>Available products</h1>
+    </div>
+    <div class="row"><br>
+  <div class="grid-container">
+      <% res1.forEach(function(product) { %>    
+      <div class="item">     
+                <div class="item">
+                   <h1 class="itemp">Name: <%= product.Name %></h1>
+                   <h1 class="itemp">Price: <%= product.Price %></h1>
+                   <image src ="/<%= product.image %>" class="pimage"></image>
+                   <h1 class="itemp">Description: <%= product.Description %></h1>
+                   
+                   <a href="/deletesql/<%= product.id%>" class="button">Delete a product</a>
+                   <a href="/editsql/<%= product.id%>" class="button">Edit a product</a>
+                </div>
+            </div>
+         <% }); %>
+    </div>
+  </h1>
+</div>
+<% include ../partials/footer %>
+</body>
+</html>

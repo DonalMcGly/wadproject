@@ -1,0 +1,33 @@
+<% include ../partials/header %>
+ 
+    <div class="row">
+    <h1>Welcome to the Athletes page</h1>
+    </div>
+    <div class="grid-container">
+      <% athletes.forEach(function(athletes) { %>    
+      
+           <div class="item">     
+                <div class="item">
+                    </h1>
+                   <h1 class="itemp">Name: <%= athletes.name %></h1>
+                   <h1 class="itemp">Sport: <%= athletes.sport %></h1>
+                   <h1 class="itemp">Country: <%= athletes.country %></h1>
+                    <h1 class="itemp">Date of birth: <%= athletes.dob %></h1>
+                   <image class="pimage" src="/<%= athletes.image %>"></image>
+                    <a href=/deleteathletes/<%= athletes.id %> class="button">Delete</a>
+                    <a href=/editathletes/<%= athletes.id %> class="button">Edit</a>
+                </div>
+            </div>
+           
+           <% }); %>
+           
+    </div>
+  </h1>
+</div>
+    
+    
+<% include ../partials/footer %>
+
+</body>
+    
+</html>

@@ -1,0 +1,83 @@
+<% include ../partials/header %>
+<div class="row">
+    <h1>Welcome to X Games Ireland</h1>
+      <h2>Below are the sports involved this year, click headers to expand</h2>
+    <div class="grid-container">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#title").click(function(){
+    $("#details").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#details, #title {
+  text-align: center;
+  background-color: #008080;
+  border: solid 1px #FFFFFF;
+  width:380px;
+  color:#FFFFFF;
+}
+#details {
+  display: none;
+}
+</style>
+<div class="place">
+<div id="title"><h2>Skateboarding</h2></div>
+<div id="details"><img src="skate1.jpg"width="100%"></div>
+
+<script> 
+$(document).ready(function(){
+  $("#bike").click(function(){
+    $("#info").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#info, #bike {
+  text-align: center;
+  background-color: #008080;
+  border: solid 1px #FFFFFF;
+  width:370px;
+  color:#FFFFFF;
+}
+#info {
+  display: none;
+  
+}
+</style></div></div></div>
+<div class="place1">
+<div id="bike"><h2>BMX</h2></div>
+<div id="info"><img src="bmxer.jpg"width="100%"></div>
+
+<script> 
+$(document).ready(function(){
+  $("#roll").click(function(){
+    $("#blade").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#blade, #roll {
+  text-align: center;
+  background-color: #008080;
+  border: solid 1px #FFFFFF;
+  width:390px;
+  color:#FFFFFF;
+}
+#blade {
+  display: none;
+}
+</style></div></div></div>
+<div class="place2">
+<div id="roll"><h2>Rollerblading</h2></div>
+<div id="blade"><img src="roller.jpg"width="100%"></div>
+
+
+<% include ../partials/footer %>
+   
+</body>
+    
+</html>
